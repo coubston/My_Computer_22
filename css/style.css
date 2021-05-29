@@ -683,3 +683,28 @@ a {
     margin-bottom: 30px;
 }
 }
+@media (max-width: 414px){
+.container{
+    max-width: 390px;
+}
+.nav{
+
+}
+.menu{
+    margin-left: -35px;
+}
+.menu-item-list{
+    padding: 10px 10px;
+}
+.menu-item-link{
+    font-size: 10px;
+    
+}
+.section-2 .price_table .row .left_text {
+    width: 50%;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 0px 20px 15px 20px;
+}
+}
