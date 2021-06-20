@@ -503,8 +503,14 @@ display: flex;
     font-size: 14px;
     line-height: 24px;
 }
+    .price_table .left_text {
+    max-width: 70%;
 }
-@media (max-width:787px){
+    .section-2 .price_table .row .price {
+    width:30%;
+    }
+}
+@media (max-width:768px){
 .container{
     max-width: 730px;
 }
