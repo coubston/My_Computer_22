@@ -680,10 +680,7 @@ margin-bottom: 20px;
     flex: 0 0 100%;
     justify-content: center;
 }
-    .cards .card {
-    display: flex;
-    margin: 7px 0px;
-}
+   
 .section-2 .price_table {
     background-color: #fff;
     padding: 1px 0px;
