@@ -37,7 +37,12 @@ body{
     }
     .header__logo img{
     max-width: 100%;
-    width: 120px;
+    width: 60px;
+    transition: .2s all ease-in-out;
+    }
+    .header__logo img:hover{
+        transform: scale(1.2);
+        transition: .2s all ease-in-out;
     }
     .header__burger{
     display: none;
@@ -490,10 +495,6 @@ display: flex;
 .container{
     max-width: 900px;
 }
-    .header__list li {
-    list-style: none;
-    margin: 0 0 0 15px;
-}
 .price_table .left_text{
     max-width: 70%;
 }
@@ -507,14 +508,8 @@ display: flex;
     font-size: 14px;
     line-height: 24px;
 }
-    .price_table .left_text {
-    max-width: 70%;
 }
-    .section-2 .price_table .row .price {
-    width:30%;
-    }
-}
-@media (max-width:768px){
+@media (max-width:767px){
 .container{
     max-width: 730px;
 }
@@ -525,7 +520,7 @@ body.lock{
 height: 50px;
 }
 .header__logo img{
-width: 90px;
+width: 45px;
 }
 .header__burger{
 display: block;
@@ -577,7 +572,7 @@ right: 0;
 width: 100%;
 height: 100%;
 overflow: auto;
-background-color: #18b5a4;
+background-color: #4169E1;
 padding: 50px 10px 0px 20px;
 transition: all .3s ease 0s;
 }
@@ -765,19 +760,6 @@ margin-bottom: 20px;
     max-width: 300px;
     margin: 0 auto;
 }
-    .header__body{
-    height:50px;
-    }
-    .header__menu{
-    position: fixed;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #18b5a4;
-    padding: 50px 10px 0px 20px;
-    transition: all .3s ease 0s
 .left-title {
     /* width: 100%; */
     margin-bottom: 50px;
@@ -804,14 +786,20 @@ margin-bottom: 20px;
 }
 .cards .card {
     display: flex;
-    margin: 15px 0px;
+    margin: 7px 0px;
+
 }
 .cards .card .img_card{
     height: 50px;
     width: 50px;
+    margin-left: 15px;
 }
 .cards .card .card_text{
     font-size: 12px;
+}
+.work{
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .how__we-work li .nomber__list {
     display: flex;
