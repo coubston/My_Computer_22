@@ -17,18 +17,24 @@ $(function(){
         autoplay:true,
         dots: true,
         infinite:true,
-        autoplaySpeed: 2000,
-        speed: 1000,
+        arrows:false,
+        autoplaySpeed: 1300,
+        speed: 900,
         slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
+          {
+            breakpoint:2000,
+            settings:{
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            }
+          },
           {
             breakpoint: 992,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-              infinite: true,
-              dots: true
             }
           },
           {
