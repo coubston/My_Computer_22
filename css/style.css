@@ -4,7 +4,7 @@ body{
 .container{
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0px 5px;
 }
 .header{
     position: fixed;
